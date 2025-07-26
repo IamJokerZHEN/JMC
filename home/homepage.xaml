@@ -7,8 +7,10 @@
 <local:MyCard Title="欢迎使用Joker Minecraft Client" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,6,0,0"
-                    Text="祝你游玩的开心!
-			最新版本为:3.0		
-			如果有Bug,请联系jokerZHEN@qq.com" />
+                    Text="祝你游玩的开心!" />
+					<TextBlock Margin="0,6,0,0"
+					            Text="最新版本为:3.0" />
+								<TextBlock Margin="0,6,0,0"
+								            Text="如果有Bug,请联系iamjokerzhen@qq.com" />
     </StackPanel>
 </local:MyCard>
