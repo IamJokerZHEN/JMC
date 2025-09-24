@@ -1,4 +1,4 @@
-<img title="JMC" src="file:///F:/Joker%20Minecraft%20Client%E5%B7%A5%E7%A8%8B/pic/JMC_V2.png" alt="" data-align="center" style="zoom:50%;">
+<img title="JMC" src="images/logo.png" alt="loading-ag-76" data-align="center" style="zoom:50%;">
 
 <h1 align="center"><font color="red">Joker</font> Minecraft Client</h1>
 
