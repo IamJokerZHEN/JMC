@@ -8,7 +8,7 @@
 
 点击 Star
 
-![Step_2](\images\Step2.png)
+![Step_2](./images/Step2.png)
 
 ## Step 3
 
@@ -20,7 +20,7 @@
 
 找到适合自己手机架构的安装包下载并安装
 
-![Step_4](\images\Step4.png)
+![Step_4](./images/Step4.png)
 
 ## Step 5
 
