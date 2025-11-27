@@ -1,3 +1,59 @@
+V3.3{
+移除了以下mod~
+
+VM汉化更新 | VM Translation Update
+REI物品管理器 | Roughly enough items
+搬运 | Carry on
+多槽位备份 | QuickBackupMulti
+腐肉换皮革 | Just Another Rotten Flesh to Leather Mod
+爬行 | Crawl
+游戏内账号切换 | In-Game Account Switcher
+The Admin Tool
+AutoSprintMod
+Detect AFK Players
+Debug Keys - Everywhere | F3+T
+Enchanted Bookshelves
+Get Off My Lawn ReServed
+Gpt-Assistant
+Player Shops
+KeybindsPurger
+Map Art Copyright
+Packed Up (Backpacks)
+Philips Ruins
+Replay Voice Chat
+Shoppy - Player Maintained Shops
+SuperMartijn642's Core Lib
+Title Fixer
+键位冲突显示 | Controlling
+Searchables
+
+添加Mod~
+
+玉 🔍 | Jade 🔍
+Open Parties and Claims
+JEI物品管理器 | Just Enough Items
+Oh The Trees You'll Grow
+CorgiLib
+GeckoLib
+我们走过的生物群系 | Oh The Biomes We've Gone
+Structory: Towers
+What Is This Structure? | WITS
+飘扬披风 | Wavey Capes
+Golden Foods!
+MonoLib
+乐器怪物 | Instrumental mobs
+失落废墟 | Additional Structures/Rex's Additional Structures
+Auto-Run | Fabric 版
+这就是石粒！ | This Rocks!
+oωo (owo-lib)
+武器附魔扩展 | Expanded weapon enchanting
+盔甲附魔扩展 | Expanded armor enchanting
+Simple Datapacks
+Styled Player List
+Vanilla NPC
+舒适用品 | Comforts
+}
+
 V3.2{
 更新了以下mod~
 

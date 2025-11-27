@@ -1,16 +1,178 @@
-<local:MyCard Title="公告" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="主页" Margin="0,0,0,15" CanSwap="False" IsSwapped="False">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,6,0,0"
-                    Text="Joker Minecraft Server更新至1.21.7!请及时更新!" />
-    </StackPanel>
-</local:MyCard>
-<local:MyCard Title="欢迎使用Joker Minecraft Client" Margin="0,0,0,15" CanSwap="False" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,6,0,0"
-                    Text="祝你游玩的开心!" />
-					<TextBlock Margin="0,6,0,0"
-					            Text="最新版本为:3.0" />
-								<TextBlock Margin="0,6,0,0"
-								            Text="如果有Bug,请联系iamjokerzhen@qq.com" />
+        <!-- LOGO -->
+        <local:MyImage Height="100" HorizontalAlignment="Center" Source="http://gtnetwork.top/WEBSIZE/Joker_Minecraft_Server/img/logo/JMC_V2.png " />
+        
+        <!-- 公告 -->
+        <local:MyCard Title="公告" Margin="0,20,0,15" CanSwap="False" IsSwapped="False">
+            <StackPanel Margin="25,50,23,15">
+            <TextBlock Margin="0,0,10,4" Text="⚠️注意⚠️" />
+                <TextBlock Margin="0,0,10,4" Text="Joker Minecraft Client V3.3已发布" />
+                                <TextBlock Margin="0,0,10,4" Text="请前往官网 or Github下载" />
+<TextBlock Margin="0,0,10,4" Text="⚠️注意⚠️" />
+                <TextBlock Margin="0,0,0,4" Text="Joker Minecraft Server 已更新至Minecraft 1.21.10" />
+                                <TextBlock Margin="0,0,0,4" Text="请尽快更新Joker Minecraft Client" />
+
+            </StackPanel>
+        </local:MyCard>
+
+        <!-- 更新日志选项卡 -->
+        <local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+            <StackPanel Margin="25,50,23,15">
+                <TextBlock Margin="0,0,0,4" Text="版本：3.3" />
+                             
+                             <TextBlock Margin="0,0,0,4" Text="将Minecraft更新至1.21.10" />
+                <TextBlock Margin="0,0,0,4" Text="移除以下MOD：" />
+                <TextBlock Margin="0,0,0,4" Text="VM汉化更新 | VM Translation Update" />
+                <TextBlock Margin="0,0,0,4" Text="REI物品管理器 | Roughly enough items" />
+                <TextBlock Margin="0,0,0,4" Text="搬运 | Carry on" />
+                <TextBlock Margin="0,0,0,4" Text="多槽位备份 | QuickBackupMulti" />
+                <TextBlock Margin="0,0,0,4" Text="腐肉换皮革 | Just Another Rotten Flesh to Leather Mod" />
+                <TextBlock Margin="0,0,0,4" Text="爬行 | Crawl" />
+                <TextBlock Margin="0,0,0,4" Text="游戏内账号切换 | In-Game Account Switcher" />
+                <TextBlock Margin="0,0,0,4" Text="The Admin Tool" />
+                <TextBlock Margin="0,0,0,4" Text="AutoSprintMod" />
+                <TextBlock Margin="0,0,0,4" Text="Detect AFK Players" />
+                <TextBlock Margin="0,0,0,4" Text="Debug Keys - Everywhere | F3+T" />
+                <TextBlock Margin="0,0,0,4" Text="Enchanted Bookshelves" />
+                <TextBlock Margin="0,0,0,4" Text="Get Off My Lawn ReServed" />
+                <TextBlock Margin="0,0,0,4" Text="Gpt-Assistant" />
+                <TextBlock Margin="0,0,0,4" Text="Player Shops" />
+                <TextBlock Margin="0,0,0,4" Text="KeybindsPurger" />
+                <TextBlock Margin="0,0,0,4" Text="Map Art Copyright" />
+                <TextBlock Margin="0,0,0,4" Text="Packed Up (Backpacks)" />
+                <TextBlock Margin="0,0,0,4" Text="Philips Ruins" />
+                <TextBlock Margin="0,0,0,4" Text="Replay Voice Chat" />
+                <TextBlock Margin="0,0,0,4" Text="Shoppy - Player Maintained Shops" />
+                <TextBlock Margin="0,0,0,4" Text="SuperMartijn642's Core Lib" />
+                <TextBlock Margin="0,0,0,4" Text="Title Fixer" />
+                <TextBlock Margin="0,0,0,4" Text="键位冲突显示 | Controlling" />
+                <TextBlock Margin="0,0,0,4" Text="Searchables" />
+                <TextBlock Margin="0,0,0,4" Text="添加以下MOD：" />
+                <TextBlock Margin="0,0,0,4" Text="玉 🔍 | Jade 🔍" />
+                <TextBlock Margin="0,0,0,4" Text="Open Parties and Claims" />
+                <TextBlock Margin="0,0,0,4" Text="JEI物品管理器 | Just Enough Items" />
+                <TextBlock Margin="0,0,0,4" Text="Oh The Trees You'll Grow" />
+                <TextBlock Margin="0,0,0,4" Text="CorgiLib" />
+                <TextBlock Margin="0,0,0,4" Text="GeckoLib" />
+                <TextBlock Margin="0,0,0,4" Text="我们走过的生物群系 | Oh The Biomes We've Gone" />
+                <TextBlock Margin="0,0,0,4" Text="Structory: Towers" />
+                <TextBlock Margin="0,0,0,4" Text="What Is This Structure? | WITS" />
+                <TextBlock Margin="0,0,0,4" Text="飘扬披风 | Wavey Capes" />
+                <TextBlock Margin="0,0,0,4" Text="Golden Foods!" />
+                <TextBlock Margin="0,0,0,4" Text="MonoLib" />
+                <TextBlock Margin="0,0,0,4" Text="乐器怪物 | Instrumental mobs" />
+                <TextBlock Margin="0,0,0,4" Text="失落废墟 | Additional Structures/Rex's Additional Structures" />
+                <TextBlock Margin="0,0,0,4" Text="Auto-Run | Fabric 版" />
+                <TextBlock Margin="0,0,0,4" Text="这就是石粒！ | This Rocks!" />
+                <TextBlock Margin="0,0,0,4" Text="oωo (owo-lib)" />
+                <TextBlock Margin="0,0,0,4" Text="武器附魔扩展 | Expanded weapon enchanting" />
+                <TextBlock Margin="0,0,0,4" Text="盔甲附魔扩展 | Expanded armor enchanting" />
+                <TextBlock Margin="0,0,0,4" Text="Simple Datapacks" />
+                <TextBlock Margin="0,0,0,4" Text="Styled Player List" />
+                <TextBlock Margin="0,0,0,4" Text="Vanilla NPC" />
+                <TextBlock Margin="0,0,0,4" Text="舒适用品 | Comforts" />
+                                <TextBlock Margin="0,0,0,4" Text="" />
+
+                <TextBlock Margin="0,0,0,4" Text="版本：3.2" />
+                    
+
+                <TextBlock Margin="0,0,0,4" Text="更新以下MOD：" />
+                <TextBlock Margin="0,0,0,4" Text="Macaw的小径和路面 | Macaw's Paths and Pavings" />
+                <TextBlock Margin="0,0,0,4" Text="表情工艺 | Emotecraft" />
+                <TextBlock Margin="0,0,0,4" Text="多槽位备份 | QuickBackupMulti" />
+                <TextBlock Margin="0,0,0,4" Text="聊天头像 | Chat heads" />
+                <TextBlock Margin="0,0,0,4" Text="旅行者背包 | Traveler's Backpack" />
+                <TextBlock Margin="0,0,0,4" Text="输入法冲突修复 | IMBlocker" />
+                <TextBlock Margin="0,0,0,4" Text="越肩视角重制 | Shoulder surfing reloaded" />
+                <TextBlock Margin="0,0,0,4" Text="AlinLib" />
+                <TextBlock Margin="0,0,0,4" Text="Balm" />
+                <TextBlock Margin="0,0,0,4" Text="Carpet Extra Extras" />
+                <TextBlock Margin="0,0,0,4" Text="Chat Notify" />
+                <TextBlock Margin="0,0,0,4" Text="Chest Locker" />
+                <TextBlock Margin="0,0,0,4" Text="BindCommands" />
+                <TextBlock Margin="0,0,0,4" Text="Fabric Language Kotlin" />
+                <TextBlock Margin="0,0,0,4" Text="Fast Backups" />
+                <TextBlock Margin="0,0,0,4" Text="JamLib" />
+                <TextBlock Margin="0,0,0,4" Text="libIPN" />
+                <TextBlock Margin="0,0,0,4" Text="MaLiLib" />
+                <TextBlock Margin="0,0,0,4" Text="Player Animation Library" />
+                <TextBlock Margin="0,0,0,4" Text="Shut Up GL Error" />
+                <TextBlock Margin="0,0,0,4" Text="Tom's Trading Network" />
+                <TextBlock Margin="0,0,0,4" Text="Veinminer" />
+                <TextBlock Margin="0,0,0,4" Text="Webcam" />
+                <TextBlock Margin="0,0,0,4" Text="新增以下MOD：" />
+                <TextBlock Margin="0,0,0,4" Text="Biomes O Plenty" />
+                <TextBlock Margin="0,0,0,4" Text="Better command block ui" />
+                <TextBlock Margin="0,0,0,4" Text="Glitch Core" />
+                <TextBlock Margin="0,0,0,4" Text="Medieval buildings" />
+                <TextBlock Margin="0,0,0,4" Text="Structory" />
+                <TextBlock Margin="0,0,0,4" Text="Terra Blender" />
+                <TextBlock Margin="0,0,0,4" Text="Animal Feeding Trough" />
+                <TextBlock Margin="0,0,0,4" Text="Prickle" />
+                <TextBlock Margin="0,0,0,4" Text="Fertilization" />
+                <TextBlock Margin="0,0,0,4" Text="Enchanted Bookshelves" />
+                <TextBlock Margin="0,0,0,4" Text="Command safety" />
+                <TextBlock Margin="0,0,0,4" Text="Memory Check" />
+                <TextBlock Margin="0,0,0,4" Text="Gpt Assistant" />
+                <TextBlock Margin="0,0,0,4" Text="no-peeking" />
+                <TextBlock Margin="0,0,0,4" Text="Items timer" />
+                <TextBlock Margin="0,0,0,4" Text="Explorations" />
+                <TextBlock Margin="0,0,0,4" Text="Philips Ruins" />
+                <TextBlock Margin="0,0,0,4" Text="I18n Update Mod" />
+                <TextBlock Margin="0,0,0,4" Text="Not Enough Keybinds" />
+                <TextBlock Margin="0,0,0,4" Text="keybinds purger" />
+                <TextBlock Margin="0,0,0,4" Text="Too Many Binds Plus" />
+                <TextBlock Margin="0,0,0,4" Text="删除以下MOD：" />
+                <TextBlock Margin="0,0,0,4" Text="我不记得了:|" />
+                                <TextBlock Margin="0,0,0,4" Text="" />
+
+                <TextBlock Margin="0,0,0,4" Text="版本：3.1" />
+
+                <TextBlock Margin="0,0,0,4" Text="客户端MOD更新" />
+                <TextBlock Margin="0,0,0,4" Text="添加新的MOD：" />
+                <TextBlock Margin="0,0,0,4" Text="I18nUpdateMod" />
+                <TextBlock Margin="0,0,0,4" Text="Minecraft cursor" />
+                <TextBlock Margin="0,0,0,4" Text="jamlib" />
+                <TextBlock Margin="0,0,0,4" Text="shut up gl erro" />
+                <TextBlock Margin="0,0,0,4" Text="crawl" />
+                <TextBlock Margin="0,0,0,4" Text="Drip Sounds" />
+                <TextBlock Margin="0,0,0,4" Text="cardinal components api" />
+                <TextBlock Margin="0,0,0,4" Text="travelersbackpack" />
+                <TextBlock Margin="0,0,0,4" Text="Jade" />
+                <TextBlock Margin="0,0,0,4" Text="lootr" />
+                <TextBlock Margin="0,0,0,4" Text="ChatImpressive Animation" />
+                <TextBlock Margin="0,0,0,4" Text="jrftl" />
+                <TextBlock Margin="0,0,0,4" Text="chatanimation" />
+                <TextBlock Margin="0,0,0,4" Text="carryon" />
+                <TextBlock Margin="0,0,0,4" Text="移除了以下MOD：" />
+                <TextBlock Margin="0,0,0,4" Text="WTHIT" />
+            </StackPanel>
+        </local:MyCard>
+
+        <!-- 按钮区域 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <!-- 启动指定Minecraft客户端 -->
+            <local:MyButton Margin="0,0,10,0" Width="150" Height="40" HorizontalAlignment="Left" Padding="10,0,10,0"
+                        Text="启动JMC" EventType="启动游戏" EventData="Joker Minecraft Client V3.3|mc.gtnetwork.top" />
+            <!-- 访问JMS官网 -->
+            
+            <local:MyButton Margin="0,0,10,0" Width="150" Height="40" HorizontalAlignment="Left" Padding="10,0,10,0"
+                        Text="访问JMS官网" EventType="打开网页" EventData="http://gtnetwork.top/WEBSIZE/Joker_Minecraft_Server/ " />
+                      </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <!-- 访问GT Network -->
+            <local:MyButton Margin="0,0,10,0" Width="150" Height="40" HorizontalAlignment="Left" Padding="10,0,10,0"
+                        Text="访问GT Network" EventType="打开网页" EventData="http://gtnetwork.top/ " />
+                        
+            <!-- 访问Github -->
+            <local:MyButton Margin="0,0,10,0" Width="150" Height="40" HorizontalAlignment="Left" Padding="10,0,10,0"
+                        Text="访问Github" EventType="打开网页" EventData="https://github.com/IamJokerZHEN/JMC/ " />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <!-- 访问QQ群 -->
+            <local:MyButton Margin="0,0,10,0" Width="150" Height="40" HorizontalAlignment="Left" Padding="10,0,10,0"
+                        Text="加入我们的qq群" EventType="打开网页" EventData="http://i9n.cn/DfCik " />
+        </StackPanel>
     </StackPanel>
 </local:MyCard>
