@@ -8,4 +8,4 @@
 
 ## 点击下方链接下载 最新JMC
 
-[[Windows]](https://github.com/IamJokerZHEN/JMC/releases/download/JMCV3.1/JMC-3.1-windows-x64-installer.exe) [[Android]](QA/Android.md) [Ios:敬请期待]
+[[Windows]](https://github.com/IamJokerZHEN/JMC/releases/download/JMCV3.3/JMC-3.3-windows-x64-installer.exe) [[Android]](QA/Android.md) [Ios:敬请期待]
